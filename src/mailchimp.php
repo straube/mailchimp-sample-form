@@ -1,7 +1,5 @@
 <?php
 
-// See the README to more information about the config.
-
 chdir(dirname(__DIR__));
 require 'vendor/autoload.php';
 
