@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "classmap" : [
+            "src/"
+        ]
+    },
+    "require": {
+        "mailchimp/mailchimp": "2.0.*"
+    }
+}
