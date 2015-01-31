@@ -12,9 +12,9 @@ define('MAILCHIMP_CITY_TAG', ''); // Your custom field tag
 $form = $_POST;
 
 if (!empty($form['email']) && !empty($form['city'])) {
-    $mailchimp = new Mailchimp(MAILCHIMP_API_KEY);
-    $lists = new Mailchimp_Lists($mailchimp);
     try {
+        $mailchimp = new Mailchimp(MAILCHIMP_API_KEY);
+        $lists = new Mailchimp_Lists($mailchimp);
         $email = [
             'email' => $form['email'],
         ];
