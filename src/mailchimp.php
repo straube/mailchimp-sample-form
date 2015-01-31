@@ -42,4 +42,6 @@ if (!empty($form['email']) && !empty($form['city'])) {
     } catch (Exception $e) {
         echo $e->getMessage(); // Do not show it to the user
     }
+} else {
+    echo 'Please fill all fields. <a href="newsletter.php">Go back</a>';
 }
